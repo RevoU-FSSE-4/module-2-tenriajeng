@@ -266,7 +266,9 @@ ol {
 }
 
 .form-control-checkbox {
-    margin: 0;
+    margin: 5px 0px;
+    height: 15px;
+    width: 15px;
 }
 
 .form-control-label {
