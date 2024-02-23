@@ -1,408 +1,347 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Banana Farm</title>
 
-        <link
-            rel="icon"
-            href="https://sejawat.s3.ap-southeast-1.amazonaws.com/sejawat/file/522dc097435e6ef7cb7d0063ff988494/0jq2_5i0b_221123-removebg-previe.png"
-            type="image/x-icon"
-        />
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Banana Farm</title>
 
-        <meta
-            name="keywords"
-            content="banana, farm, sustainable, agriculture, organic, fruit"
-        />
-        <meta
-            name="description"
-            content="Welcome to our banana farm! We grow high-quality bananas using sustainable practices. Learn more about our farm and our commitment to delivering the best bananas to you."
-        />
-        <meta
-            name="og:image"
-            content="https://sejawat.s3.ap-southeast-1.amazonaws.com/sejawat/file/522dc097435e6ef7cb7d0063ff988494/0jq2_5i0b_221123-removebg-previe.png"
-        />
+    <link rel="icon"
+        href="https://sejawat.s3.ap-southeast-1.amazonaws.com/sejawat/file/522dc097435e6ef7cb7d0063ff988494/0jq2_5i0b_221123-removebg-previe.png"
+        type="image/x-icon" />
 
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link
-            href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-            rel="stylesheet"
-        />
+    <meta name="keywords" content="banana, farm, sustainable, agriculture, organic, fruit" />
+    <meta name="description"
+        content="Welcome to our banana farm! We grow high-quality bananas using sustainable practices. Learn more about our farm and our commitment to delivering the best bananas to you." />
+    <meta name="og:image"
+        content="https://sejawat.s3.ap-southeast-1.amazonaws.com/sejawat/file/522dc097435e6ef7cb7d0063ff988494/0jq2_5i0b_221123-removebg-previe.png" />
 
-        <link rel="stylesheet" href="index.css" />
-    </head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet" />
 
-    <body>
-        <header class="navbar">
-            <div class="navbar-container">
-                <div class="brand">
-                    <img
-                        src="https://sejawat.s3.ap-southeast-1.amazonaws.com/sejawat/file/522dc097435e6ef7cb7d0063ff988494/0jq2_5i0b_221123-removebg-previe.png"
-                        width="50"
-                        alt="Banana Logo"
-                    />
-                    <h1 class="text-primary text-2xl font-bold mx-2">
-                        Banana Farm
-                    </h1>
-                </div>
-                <nav class="menu">
-                    <a class="menu-item text-sm text-primary" href="#home"
-                        >Home</a
-                    >
-                    <a class="menu-item text-sm text-primary" href="#about"
-                        >About Us</a
-                    >
-                    <a class="menu-item text-sm text-primary" href="#contact"
-                        >Contact</a
-                    >
-                </nav>
+    <link rel="stylesheet" href="index.css" />
+</head>
 
-                <div class="hamburger-icon" id="hamburger-icon">
-                    <img
-                        src="hamburger-icon.png"
-                        width="40"
-                        height="40"
-                        alt="hamburger icon"
-                    />
+<body>
+    <header class="navbar">
+        <div class="navbar-container">
+            <div class="brand">
+                <img src="https://sejawat.s3.ap-southeast-1.amazonaws.com/sejawat/file/522dc097435e6ef7cb7d0063ff988494/0jq2_5i0b_221123-removebg-previe.png"
+                    width="50" alt="Banana Logo" />
+                <h1 class="text-primary text-2xl font-bold mx-2">
+                    Banana Farm
+                </h1>
+            </div>
+            <nav class="menu">
+                <a class="menu-item text-sm text-primary" href="#home">Home</a>
+                <a class="menu-item text-sm text-primary" href="#about">About Us</a>
+                <a class="menu-item text-sm text-primary" href="#galery">Galery</a>
+                <a class="menu-item text-sm text-primary" href="#cultivation-steps">Cultivation Steps</a>
+                <a class="menu-item text-sm text-primary" href="#contact">Contact</a>
+            </nav>
+
+            <div class="hamburger-icon" id="hamburger-icon">
+                <img src="hamburger-icon.png" width="40" height="40" alt="hamburger icon" />
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="home">
+            <div class="overlay flex align-center">
+                <div class="container flex-col justify-center align-center w-6 h-50">
+                    <h2 class="text-5xl text-center rounded-full px-10 bg-primary animate-bounce">
+                        Welcome to our banana farm!
+                    </h2>
+                    <p class="text-light text-lg text-center">
+                        We take pride in growing high-quality bananas using
+                        sustainable practices. Learn more about our farm and
+                        our commitment to delivering the best bananas to
+                        you.
+                    </p>
+                    <div>
+                        <a href="#about" class="button-secondary font-bold rounded-full mx-4">
+                            Learn
+                        </a>
+                        <a href="#contact" class="button-primary font-bold rounded-full mx-4">
+                            Contact us
+                        </a>
+                    </div>
                 </div>
             </div>
-        </header>
+        </section>
 
-        <main>
-            <section id="home">
-                <div class="overlay flex align-center">
-                    <div
-                        class="container flex-col justify-center align-center w-6 h-50"
-                    >
-                        <h2
-                            class="text-5xl text-center rounded-full px-10 bg-primary"
-                        >
-                            Welcome to our
-                            <span class="animate-bounce"> banana farm!</span>
-                        </h2>
-                        <p class="text-light text-lg text-center">
-                            We take pride in growing high-quality bananas using
-                            sustainable practices. Learn more about our farm and
-                            our commitment to delivering the best bananas to
-                            you.
-                        </p>
-                        <div>
-                            <a
-                                href="#about"
-                                class="button-secondary font-bold rounded-full mx-4"
-                            >
-                                Learn
-                            </a>
-                            <a
-                                href="#contact"
-                                class="button-primary font-bold rounded-full mx-4"
-                            >
-                                Contact us
-                            </a>
+        <section id="about">
+            <div class="container">
+                <h2 class="text-3xl text-primary">About Our Banana Farm</h2>
+                <span class="animate-bounce"> banana farm!</span>
+                <p class="text-light text-base leading-6 w-8 sm-w-full transition duration-150 ease-in">
+                    Welcome to our thriving banana farm, where we cultivate
+                    and nurture one of the world's most beloved fruits.
+                    Nestled in the heart of [Location], our farm is
+                    dedicated to providing high-quality bananas while
+                    promoting sustainable and eco-friendly farming
+                    practices.
+                </p>
+
+
+                <div class="grid-container gap-5">
+                    <div class="card shadow rounded-lg">
+                        <img class="card-image aspect-16-9 object-cover rounded-lg"
+                            src="https://sejawat.s3.ap-southeast-1.amazonaws.com/sejawat/file/96c2abe571671f542a062b255883c86c/smiling-multiracial-harvesters-with-fresh-banana-b-2023-11-27-04-57-38-utc_11zon.jpg"
+                            alt="Banana Plantation" />
+                        <div class="card-body">
+                            <h3 class="text-lg text-primary font-medium">
+                                Expansive Plantations
+                            </h3>
+                            <p class="text-light text-sm my-4 leading-6">
+                                Our farm boasts vast and well-maintained
+                                banana plantations, ensuring optimal growing
+                                conditions for our banana crops. The lush
+                                greenery and carefully planned layout
+                                contribute to the health and abundance of
+                                our bananas.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="card shadow rounded-lg">
+                        <img class="card-image aspect-16-9 object-cover rounded-lg"
+                            src="https://sejawat.s3.ap-southeast-1.amazonaws.com/sejawat/file/ca63dcd985ee27192a7ab30ccba25cbd/mom-with-her-son-in-her-arms-shows-him-a-banana-tr-2023-11-27-05-16-08-utc_11zon.jpg"
+                            alt=" Sustainable Practices" />
+                        <div class="card-body">
+                            <h3 class="text-lg text-primary font-medium">
+                                Sustainable Practices
+                            </h3>
+                            <p class="text-light text-sm my-4 leading-6">
+                                We are committed to sustainable farming
+                                methods, minimizing our environmental
+                                impact. From organic fertilizers to water
+                                conservation initiatives, our goal is to
+                                produce delicious bananas while preserving
+                                the natural resources around us.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="card shadow rounded-lg">
+                        <img class="card-image aspect-16-9 object-cover rounded-lg"
+                            src="https://sejawat.s3.ap-southeast-1.amazonaws.com/sejawat/file/43feba66ca6223f97274cff62180d17b/african-american-young-man-holding-bunch-of-fresh-2023-11-27-05-10-04-utc_11zon.jpg"
+                            alt="Quality Control" />
+                        <div class="card-body">
+                            <h3 class="text-lg text-primary font-medium">
+                                Stringent Quality Control
+                            </h3>
+                            <p class="text-light text-sm my-4 leading-6">
+                                Quality is at the core of our operations. We
+                                implement stringent quality control measures
+                                to ensure that every banana meets the
+                                highest standards. From planting to
+                                harvesting, our team is dedicated to
+                                delivering premium bananas to our customers.
+                            </p>
                         </div>
                     </div>
                 </div>
-            </section>
+            </div>
+        </section>
 
-            <section id="about">
-                <div class="container">
-                    <h2 class="text-3xl text-primary">About Our Banana Farm</h2>
-                    <span class="animate-bounce"> banana farm!</span>
-                    <p class="text-light text-base leading-6 w-8 sm-w-full">
-                        Welcome to our thriving banana farm, where we cultivate
-                        and nurture one of the world's most beloved fruits.
-                        Nestled in the heart of [Location], our farm is
-                        dedicated to providing high-quality bananas while
-                        promoting sustainable and eco-friendly farming
-                        practices.
-                    </p>
-
-                    <div class="grid-container gap-5">
-                        <div class="card shadow rounded-lg">
-                            <img
-                                class="card-image aspect-16-9 object-cover rounded-lg"
-                                src="https://sejawat.s3.ap-southeast-1.amazonaws.com/sejawat/file/96c2abe571671f542a062b255883c86c/smiling-multiracial-harvesters-with-fresh-banana-b-2023-11-27-04-57-38-utc_11zon.jpg"
-                                alt="Banana Plantation"
-                            />
-                            <div class="card-body">
-                                <h3 class="text-lg text-primary font-medium">
-                                    Expansive Plantations
-                                </h3>
-                                <p class="text-light text-sm my-4 leading-6">
-                                    Our farm boasts vast and well-maintained
-                                    banana plantations, ensuring optimal growing
-                                    conditions for our banana crops. The lush
-                                    greenery and carefully planned layout
-                                    contribute to the health and abundance of
-                                    our bananas.
-                                </p>
-                            </div>
-                        </div>
-
-                        <div class="card shadow rounded-lg">
-                            <img
-                                class="card-image aspect-16-9 object-cover rounded-lg"
-                                src="https://sejawat.s3.ap-southeast-1.amazonaws.com/sejawat/file/ca63dcd985ee27192a7ab30ccba25cbd/mom-with-her-son-in-her-arms-shows-him-a-banana-tr-2023-11-27-05-16-08-utc_11zon.jpg"
-                                alt=" Sustainable Practices"
-                            />
-                            <div class="card-body">
-                                <h3 class="text-lg text-primary font-medium">
-                                    Sustainable Practices
-                                </h3>
-                                <p class="text-light text-sm my-4 leading-6">
-                                    We are committed to sustainable farming
-                                    methods, minimizing our environmental
-                                    impact. From organic fertilizers to water
-                                    conservation initiatives, our goal is to
-                                    produce delicious bananas while preserving
-                                    the natural resources around us.
-                                </p>
-                            </div>
-                        </div>
-
-                        <div class="card shadow rounded-lg">
-                            <img
-                                class="card-image aspect-16-9 object-cover rounded-lg"
-                                src="https://sejawat.s3.ap-southeast-1.amazonaws.com/sejawat/file/43feba66ca6223f97274cff62180d17b/african-american-young-man-holding-bunch-of-fresh-2023-11-27-05-10-04-utc_11zon.jpg"
-                                alt="Quality Control"
-                            />
-                            <div class="card-body">
-                                <h3 class="text-lg text-primary font-medium">
-                                    Stringent Quality Control
-                                </h3>
-                                <p class="text-light text-sm my-4 leading-6">
-                                    Quality is at the core of our operations. We
-                                    implement stringent quality control measures
-                                    to ensure that every banana meets the
-                                    highest standards. From planting to
-                                    harvesting, our team is dedicated to
-                                    delivering premium bananas to our customers.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <section id="portfolio" class="flex align-center">
-                <div class="container">
-                    <h2 class="text-3xl">Galery</h2>
-                    <p class="text-base leading-6 w-8 sm-w-full">
-                        Explore our captivating gallery showcasing the beauty of
-                        bananas in various settings and scenes. From vibrant
-                        banana clusters to lush tropical landscapes, our
-                        collection captures the essence of nature's delightful
-                        gift.
-                    </p>
-                    <div class="grid-container gap-2">
-                        <div class="grid-item grid-one lg:row-span-2">
-                            <picture>
-                                <source
-                                    srcset="
+        <section id="galery" class="flex align-center">
+            <div class="container">
+                <h2 class="text-3xl">Galery</h2>
+                <p class="text-base leading-6 w-8 sm-w-full">
+                    Explore our captivating gallery showcasing the beauty of
+                    bananas in various settings and scenes. From vibrant
+                    banana clusters to lush tropical landscapes, our
+                    collection captures the essence of nature's delightful
+                    gift.
+                </p>
+                <div class="grid-container gap-2">
+                    <div class="grid-item transition-transform duration-300 ease-in lg:row-span-2">
+                        <picture>
+                            <source srcset="
                                         https://sejawat.s3.ap-southeast-1.amazonaws.com/sejawat/file/8312dc00631de3a5b35b7515671b6235/front-view-yellow-bananas-on-dark-background-fruit-2023-11-27-05-16-28-utc_11zon-%281%29-%281%29.jpg
-                                    "
-                                    media="(min-width: 768px)"
-                                />
-                                <img
-                                    class="w-full h-full object-cover rounded-lg aspect-16-9"
-                                    src="https://sejawat.s3.ap-southeast-1.amazonaws.com/sejawat/file/5dc9bc18bf4c766cb0cba43457ea1e93/front-view-yellow-bananas-on-dark-background-fruit-2023-11-27-05-16-28-utc_11zon.jpg"
-                                    alt="Front view yellow bananas on dark background fruit"
-                                />
-                            </picture>
-                        </div>
-                        <div class="grid-item grid-two lg:col-span-2">
-                            <picture>
-                                <source
-                                    class="lg:aspect-3-1"
-                                    srcset="
+                                    " media="(min-width: 768px)" />
+                            <img class="w-full h-full object-cover rounded-lg aspect-16-9"
+                                src="https://sejawat.s3.ap-southeast-1.amazonaws.com/sejawat/file/5dc9bc18bf4c766cb0cba43457ea1e93/front-view-yellow-bananas-on-dark-background-fruit-2023-11-27-05-16-28-utc_11zon.jpg"
+                                alt="Front view yellow bananas on dark background fruit" />
+                        </picture>
+                    </div>
+                    <div class="grid-item transition-transform duration-300 ease-in lg:col-span-2">
+                        <picture>
+                            <source class="lg:aspect-3-1" srcset="
                                         https://sejawat.s3.ap-southeast-1.amazonaws.com/sejawat/file/8c1e3293b9250d10adc81452e2d706db/green-nature-background-many-banana-leaves-are-gr-2023-11-27-05-10-19-utc_11zon-%281%29-%281%29.jpg
-                                    "
-                                    media="(min-width: 768px)"
-                                />
-                                <img
-                                    class="w-full h-full object-cover rounded-lg sm:aspect-16-9"
-                                    src="https://sejawat.s3.ap-southeast-1.amazonaws.com/sejawat/file/6598587ea390e5737795379e4090fdf0/green-nature-background-many-banana-leaves-are-gr-2023-11-27-05-10-19-utc_11zon.jpg"
-                                    alt="Green nature background many banana leaves are gr"
-                                />
-                            </picture>
-                        </div>
-                        <div class="grid-item grid-three">
-                            <picture>
-                                <img
-                                    class="w-full h-full object-cover rounded-lg aspect-16-9"
-                                    src="https://sejawat.s3.ap-southeast-1.amazonaws.com/sejawat/file/950efa9dc2bdbc126646c9276e789e27/lush-green-trees-in-tropical-forest-nature-landsc-2023-11-27-05-09-02-utc_11zon.jpg"
-                                    alt="Lush green trees in tropical forest nature landsc"
-                                />
-                            </picture>
-                        </div>
-                        <div class="grid-item grid-four">
-                            <picture>
-                                <img
-                                    class="w-full h-full object-cover rounded-lg aspect-16-9"
-                                    src="https://sejawat.s3.ap-southeast-1.amazonaws.com/sejawat/file/553fb3aca8c6cfcdb993869156d0ea34/a-bunch-of-yellow-bananas-on-a-wooden-background-2023-11-27-05-13-00-utc_11zon.jpg"
-                                    alt="A bunch of yellow bananas on a wooden background"
-                                />
-                            </picture>
-                        </div>
-                        <div class="grid-item grid-five">
-                            <picture>
-                                <img
-                                    class="w-full h-full object-cover rounded-lg aspect-16-9"
-                                    src="https://sejawat.s3.ap-southeast-1.amazonaws.com/sejawat/file/9456fa40717bc2a382979d6e258789ea/bunch-of-raw-organic-bananas-ready-to-eat-2023-11-27-05-21-42-utc_11zon.jpg"
-                                    alt="Bunch of raw organic bananas ready to eat"
-                                />
-                            </picture>
-                        </div>
-                        <div class="grid-item grid-six lg:col-span-2">
-                            <picture>
-                                <source
-                                    class="lg:aspect-3-1"
-                                    srcset="
+                                    " media="(min-width: 768px)" />
+                            <img class="w-full h-full object-cover rounded-lg sm:aspect-16-9"
+                                src="https://sejawat.s3.ap-southeast-1.amazonaws.com/sejawat/file/6598587ea390e5737795379e4090fdf0/green-nature-background-many-banana-leaves-are-gr-2023-11-27-05-10-19-utc_11zon.jpg"
+                                alt="Green nature background many banana leaves are gr" />
+                        </picture>
+                    </div>
+                    <div class="grid-item transition-transform duration-300 ease-in">
+                        <picture>
+                            <img class="w-full h-full object-cover rounded-lg aspect-16-9"
+                                src="https://sejawat.s3.ap-southeast-1.amazonaws.com/sejawat/file/950efa9dc2bdbc126646c9276e789e27/lush-green-trees-in-tropical-forest-nature-landsc-2023-11-27-05-09-02-utc_11zon.jpg"
+                                alt="Lush green trees in tropical forest nature landsc" />
+                        </picture>
+                    </div>
+                    <div class="grid-item transition-transform duration-300 ease-in">
+                        <picture>
+                            <img class="w-full h-full object-cover rounded-lg aspect-16-9"
+                                src="https://sejawat.s3.ap-southeast-1.amazonaws.com/sejawat/file/553fb3aca8c6cfcdb993869156d0ea34/a-bunch-of-yellow-bananas-on-a-wooden-background-2023-11-27-05-13-00-utc_11zon.jpg"
+                                alt="A bunch of yellow bananas on a wooden background" />
+                        </picture>
+                    </div>
+                    <div class="grid-item transition-transform duration-300 ease-in">
+                        <picture>
+                            <img class="w-full h-full object-cover rounded-lg aspect-16-9"
+                                src="https://sejawat.s3.ap-southeast-1.amazonaws.com/sejawat/file/9456fa40717bc2a382979d6e258789ea/bunch-of-raw-organic-bananas-ready-to-eat-2023-11-27-05-21-42-utc_11zon.jpg"
+                                alt="Bunch of raw organic bananas ready to eat" />
+                        </picture>
+                    </div>
+                    <div class="grid-item transition-transform duration-300 ease-in lg:col-span-2">
+                        <picture>
+                            <source class="lg:aspect-3-1" srcset="
                                         https://sejawat.s3.ap-southeast-1.amazonaws.com/sejawat/file/373c7b7024876b473870203d2d096de1/people-eating-healthy-food-2023-11-27-05-25-14-utc_11zon-%281%29-%281%29.jpg
-                                    "
-                                    media="(min-width: 768px)"
-                                />
-
-                                <img
-                                    class="w-full h-full object-cover rounded-lg sm:aspect-16-9"
-                                    src="https://sejawat.s3.ap-southeast-1.amazonaws.com/sejawat/file/1de2845285f4fc5f392d9a5e48f2bc22/people-eating-healthy-food-2023-11-27-05-25-14-utc_11zon.jpg"
-                                    alt="People eating healthy food"
-                                />
-                            </picture>
-                        </div>
+                                    " media="(min-width: 768px)" />
+                            <img class="w-full h-full object-cover rounded-lg sm:aspect-16-9"
+                                src="https://sejawat.s3.ap-southeast-1.amazonaws.com/sejawat/file/1de2845285f4fc5f392d9a5e48f2bc22/people-eating-healthy-food-2023-11-27-05-25-14-utc_11zon.jpg"
+                                alt="People eating healthy food" />
+                        </picture>
                     </div>
                 </div>
-            </section>
+            </div>
+        </section>
 
-            <section id="contact">
-                <div class="container">
-                    <div class="flex align-center justify-between">
-                        <div
-                            class="card shadow shadow p-10 rounded-lg w-6 sm-w-full"
-                        >
-                            <h2 class="mb-4 text-primary">Contact Us</h2>
-                            <form class="w-full grid-cols-2">
-                                <div>
-                                    <label
-                                        class="form-control-label text-light font-normal text-sm"
-                                        for="name"
-                                    >
-                                        Your Name:
-                                    </label>
-                                    <input
-                                        type="text"
-                                        id="name"
-                                        class="form-control rounded"
-                                        name="name"
-                                        placeholder="Input name"
-                                        required
-                                    />
-                                </div>
+        <section id="cultivation-steps">
+            <div class="container">
+                <h2 class="text-3xl text-center text-primary mb-10">Banana Cultivation Steps</h2>
+                <ol class="grid-container gap-2">
+                    <li
+                        class="border border-gray-500 shadow-sm text-center text-shadow-primary text-light p-10 rounded-lg">
+                        Selecting the Variety
+                    </li>
+                    <li
+                        class="border border-gray-500 shadow-sm text-center text-shadow-primary text-light p-10 rounded-lg">
+                        Site Selection
+                    </li>
+                    <li
+                        class="border border-gray-500 shadow-sm text-center text-shadow-primary text-light p-10 rounded-lg">
+                        Soil Preparation
+                    </li>
+                    <li
+                        class="border border-gray-500 shadow-sm text-center text-shadow-primary text-light p-10 rounded-lg">
+                        Planting Material
+                    </li>
+                    <li
+                        class="border border-gray-500 shadow-sm text-center text-shadow-primary text-light p-10 rounded-lg">
+                        Planting
+                    </li>
+                    <li
+                        class="border border-gray-500 shadow-sm text-center text-shadow-primary text-light p-10 rounded-lg">
+                        Watering
+                    </li>
+                    <li
+                        class="border border-gray-500 shadow-sm text-center text-shadow-primary text-light p-10 rounded-lg">
+                        Fertilization
+                    </li>
+                    <li
+                        class="border border-gray-500 shadow-sm text-center text-shadow-primary text-light p-10 rounded-lg">
+                        Mulching
+                    </li>
+                    <li
+                        class="border border-gray-500 shadow-sm text-center text-shadow-primary text-light p-10 rounded-lg">
+                        Pruning
+                    </li>
+                    <li
+                        class="border border-gray-500 shadow-sm text-center text-shadow-primary text-light p-10 rounded-lg">
+                        Disease and Pest Management
+                    </li>
+                    <li
+                        class="border border-gray-500 shadow-sm text-center text-shadow-primary text-light p-10 rounded-lg">
+                        Support Structures
+                    </li>
+                    <li
+                        class="border border-gray-500 shadow-sm text-center text-shadow-primary text-light p-10 rounded-lg">
+                        Harvesting
+                    </li>
+                </ol>
+            </div>
+        </section>
 
-                                <div>
-                                    <label
-                                        class="form-control-label text-light font-normal text-sm"
-                                        for="email"
-                                    >
-                                        Your Email:
-                                    </label>
-                                    <input
-                                        type="email"
-                                        id="email"
-                                        class="form-control rounded"
-                                        name="email"
-                                        placeholder="Input email"
-                                        required
-                                    />
-                                </div>
+        <section id="contact">
+            <div class="container">
+                <div class="flex align-center justify-between">
+                    <div class="card shadow shadow p-10 rounded-lg w-6 sm-w-full">
+                        <h2 class="mb-4 text-primary">Contact Us</h2>
+                        <form class="w-full grid-cols-2">
+                            <div>
+                                <label class="form-control-label text-light font-normal text-sm" for="name">
+                                    Your Name:
+                                </label>
+                                <input type="text" id="name" class="form-control rounded" name="name"
+                                    placeholder="Input name" required />
+                            </div>
 
-                                <div>
-                                    <label
-                                        class="form-control-label text-light font-normal text-sm"
-                                        for="message"
-                                    >
-                                        Your Message:
-                                    </label>
-                                    <textarea
-                                        id="message"
-                                        class="form-control rounded"
-                                        name="message"
-                                        rows="4"
-                                        placeholder="Input message"
-                                        required
-                                    ></textarea>
-                                </div>
+                            <div>
+                                <label class="form-control-label text-light font-normal text-sm" for="email">
+                                    Your Email:
+                                </label>
+                                <input type="email" id="email" class="form-control rounded" name="email"
+                                    placeholder="Input email" required />
+                            </div>
 
-                                <div class="flex align-center mb-4">
-                                    <input
-                                        type="checkbox"
-                                        id="subscribe"
-                                        class="form-control-checkbox"
-                                        name="subscribe"
-                                        value="yes"
-                                    />
-                                    <label
-                                        class="form-control-label text-light font-normal text-sm mx-4"
-                                        for="subscribe"
-                                    >
-                                        Interested in Banana Farm Updates
-                                    </label>
-                                </div>
+                            <div>
+                                <label class="form-control-label text-light font-normal text-sm" for="message">
+                                    Your Message:
+                                </label>
+                                <textarea id="message" class="form-control rounded" name="message" rows="4"
+                                    placeholder="Input message" required></textarea>
+                            </div>
 
-                                <div>
-                                    <label
-                                        for="location"
-                                        class="form-control-label text-light font-medium text-sm"
-                                    >
-                                        Select Your Location:
-                                    </label>
-                                    <select
-                                        id="location"
-                                        class="form-control rounded"
-                                        name="location"
-                                    >
-                                        <option value="local">Local</option>
-                                        <option value="national">
-                                            National
-                                        </option>
-                                        <option value="international">
-                                            International
-                                        </option>
-                                    </select>
-                                </div>
+                            <div class="flex align-center mb-4">
+                                <input type="checkbox" id="subscribe" class="form-control-checkbox" name="subscribe"
+                                    value="yes" />
+                                <label class="form-control-label text-light font-normal text-sm mx-4" for="subscribe">
+                                    Interested in Banana Farm Updates
+                                </label>
+                            </div>
 
-                                <input
-                                    type="submit"
-                                    class="button-primary font-bold rounded-full"
-                                    value="Submit"
-                                />
-                            </form>
-                        </div>
+                            <div>
+                                <label for="location" class="form-control-label text-light font-medium text-sm">
+                                    Select Your Location:
+                                </label>
+                                <select id="location" class="form-control rounded" name="location">
+                                    <option value="local">Local</option>
+                                    <option value="national">
+                                        National
+                                    </option>
+                                    <option value="international">
+                                        International
+                                    </option>
+                                </select>
+                            </div>
 
-                        <img
-                            src="https://sejawat.s3.ap-southeast-1.amazonaws.com/sejawat/file/02171d2169606dae62dcb99f1e87b7a2/woman-with-banana-stem-on-the-pantation-2023-11-27-05-02-04-utc_11zon.jpg"
-                            class="w-4 d-none shadow rounded-lg aspect-square object-cover"
-                            alt="Woman with banana"
-                        />
+                            <input type="submit" class="button-primary font-bold rounded-full" value="Submit" />
+                        </form>
                     </div>
+
+                    <img src="https://sejawat.s3.ap-southeast-1.amazonaws.com/sejawat/file/02171d2169606dae62dcb99f1e87b7a2/woman-with-banana-stem-on-the-pantation-2023-11-27-05-02-04-utc_11zon.jpg"
+                        class="w-4 d-none shadow rounded-lg aspect-square object-cover" alt="Woman with banana" />
                 </div>
-            </section>
-        </main>
+            </div>
+        </section>
+    </main>
 
-        <footer class="flex justify-center bg-dark">
-            <p class="text-primary">
-                &copy; 2024 Banana Farm. All rights reserved.
-            </p>
-        </footer>
-    </body>
+    <footer class="flex justify-center bg-dark">
+        <p class="text-primary">
+            &copy; 2024 Banana Farm. All rights reserved.
+        </p>
+    </footer>
+</body>
 
-    <script>
-        document
-            .getElementById("hamburger-icon")
-            .addEventListener("click", function () {
-                document.querySelector(".menu").classList.toggle("show-menu");
-            });
-    </script>
+<script src="index.js"></script>
+
 </html>
