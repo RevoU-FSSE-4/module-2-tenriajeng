@@ -14,13 +14,20 @@ Welcome to the documentation for Banana Farm, a sustainable banana cultivation i
 ### 2. About Us
 
 - Detailed information about the banana farm's location, practices, and commitment to sustainability. 
-
 - Description and image showcasing the vast and well-maintained banana plantations.
- 
 - Description and image highlighting the farm's dedication to sustainable farming methods.
 - Description and image emphasizing the farm's commitment to stringent quality control measures.
 
-### 3. Contact Us 
+### 3. Galery
+
+-  Explore our captivating gallery showcasing the beauty of
+                    bananas in various settings and scenes.
+
+### 4. Banana Cultivation Steps
+
+- Select variety, prepare soil, plant, water, fertilize, prune, protect, harvest.
+
+### 5. Contact Us 
 
 - Input fields for name, email, and message.
 - Checkbox for users interested in receiving Banana Farm updates.
@@ -30,17 +37,15 @@ Welcome to the documentation for Banana Farm, a sustainable banana cultivation i
 ## Usage
 
 ```bash
-git clone https://github.com/RevoU-FSSE-4/module-1-tenriajeng.git
+git clone https://github.com/RevoU-FSSE-4/module-2-tenriajeng.git
 ```
 
 ```bash
-cd module-1-tenriajeng
+cd module-2-tenriajeng
 ```
 
 ## Contributing
 
-We welcome contributions to improve our documentation or suggest enhancements to our practices. If you have any suggestions or feedback, please open an issue or submit a pull request on our [GitHub repository](https://github.com/RevoU-FSSE-4/module-1-tenriajeng).
+We welcome contributions to improve our documentation or suggest enhancements to our practices. If you have any suggestions or feedback, please open an issue or submit a pull request on our [GitHub repository](https://github.com/RevoU-FSSE-4/module-2-tenriajeng).
 
 Feel free to check out my GitHub account at [tenriajeng](https://github.com/tenriajeng) for additional contributions.
-
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/J5s2e_vk)
