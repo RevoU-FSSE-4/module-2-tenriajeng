@@ -2,6 +2,10 @@
     --main-color: #020617;
     --primary-color: #eefc1b;
     --light-color: #ffffff;
+    --danger-color: #f43f5e;
+    --gray: #374151;
+    --gray-500: rgb(107 114 128);
+    --gray-700: rgb(55 65 81);
 }
 
 body {
@@ -17,7 +21,6 @@ main {
 }
 
 section {
-    min-height: 60vh;
     padding-top: 50px;
     padding-bottom: 50px;
 }
@@ -62,7 +65,7 @@ ol {
     align-items: center;
     justify-content: center;
     height: 80px;
-    background-color: var(--main-color);
+    background-color: var(--light-color);
     position: sticky;
     top: 0;
     z-index: 1000;
@@ -85,18 +88,17 @@ ol {
 
 .menu {
     display: flex;
-    gap: 20px;
+    justify-content: center;
+    gap: 50px;
 }
 
 .menu-item {
-    margin-left: 20px;
-    margin-right: 20px;
     text-decoration: none;
-    color: var(--main-color);
+    color: var(--gray);
 }
 
 .menu-item:hover {
-    color: gray;
+    color: #5599ff;
 }
 
 .brand {
@@ -196,6 +198,14 @@ ol {
     margin-bottom: 10px !important;
 }
 
+.mb-5 {
+    margin-bottom: 14px !important;
+}
+
+.mb-6 {
+    margin-bottom: 18px !important;
+}
+
 .mb-10 {
     margin-bottom: 40px !important;
 }
@@ -204,12 +214,32 @@ ol {
     padding: 10px;
 }
 
+.p-5 {
+    padding: 14px;
+}
+
+.p-6 {
+    padding: 18px;
+}
+
 .p-10 {
     padding: 40px;
 }
 
+.px-5 {
+    padding: 0px 14px;
+}
+
 .px-10 {
     padding: 0px 40px;
+}
+
+.py-10 {
+    padding: 40px 0px;
+}
+
+.py-20 {
+    padding: 80px 0px;
 }
 
 .border {
@@ -230,10 +260,11 @@ ol {
 
 #home {
     position: relative;
-    background-image: url("https://sejawat.s3.ap-southeast-1.amazonaws.com/sejawat/file/4386b587a8b9de2be807a2af8cf4256e/aerial-view-of-green-agriculture-field-india-2023-11-27-04-55-18-utc_11zon-%281%29.jpg");
+    background-image: url("https://themesbrand.com/toner/html/assets/images/ecommerce/home/img-1.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    background-color: #fcdae2;
 }
 
 .overlay {
@@ -476,6 +507,10 @@ ol {
     align-items: start;
 }
 
+.align-end {
+    align-items: end;
+}
+
 .justify-center {
     justify-content: center;
 }
@@ -486,6 +521,14 @@ ol {
 
 .justify-between {
     justify-content: space-between;
+}
+
+.justify-evenly {
+    justify-content: space-evenly;
+}
+
+.justify-self-end {
+    justify-self: end;
 }
 
 .bg-primary {
@@ -520,6 +563,18 @@ ol {
     background-color: #cedb19;
 }
 
+.button-danger {
+    background-color: var(--danger-color);
+    padding: 10px 30px;
+    font-size: 14px;
+    border: 0px;
+    cursor: pointer;
+}
+
+.button-danger:hover {
+    background-color: #e11d48;
+}
+
 .text-primary {
     color: var(--primary-color);
 }
@@ -528,8 +583,24 @@ ol {
     color: var(--light-color);
 }
 
+.text-gray-500 {
+    color: var(--gray-500);
+}
+
+.text-gray-700 {
+    color: var(--gray-700);
+}
+
+.text-gray-800 {
+    color: var(--gray);
+}
+
 .text-center {
     text-align: center;
+}
+
+.text-end {
+    text-align: end;
 }
 
 .leading-3 {
