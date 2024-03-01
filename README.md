@@ -155,6 +155,12 @@ cd module-2-tenriajeng
 - Done
 ![Done](https://sejawat.s3.ap-southeast-1.amazonaws.com/sejawat/file/da9a936d26e5f92dabfb5fc3e480611a/Screenshot-2024-03-01-at-21.28.55.png)
 
+## Lighthouse Score
+- Mobile 
+![Mobile](https://sejawat.s3.ap-southeast-1.amazonaws.com/sejawat/file/b46992537d9d3ffd2b3cd8d900bee272/Screenshot-2024-03-02-at-00.23.21.png)
+
+- Desktop 
+![Desktop](https://sejawat.s3.ap-southeast-1.amazonaws.com/sejawat/file/14829c996f0184f1f5943128e9c00f9f/Screenshot-2024-03-02-at-00.18.32.png)
 
 ## Contributing
 
