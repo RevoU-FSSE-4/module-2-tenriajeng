@@ -291,19 +291,11 @@
                             </div>
 
                             <div>
-                                <label class="form-control-label text-light font-normal text-sm" for="message">
-                                    Your Message:
+                                <label class="form-control-label text-light font-normal text-sm" for="email">
+                                    Appointment:
                                 </label>
-                                <textarea id="message" class="form-control rounded" name="message" rows="4"
-                                    placeholder="Input message" required></textarea>
-                            </div>
-
-                            <div class="flex align-center mb-4">
-                                <input type="checkbox" id="subscribe" class="form-control-checkbox" name="subscribe"
-                                    value="yes" />
-                                <label class="form-control-label text-light font-normal text-sm mx-4" for="subscribe">
-                                    Interested in Banana Farm Updates
-                                </label>
+                                <input type="datetime-local" id="appointment" class="form-control rounded"
+                                    name="appointment" placeholder="Input appointment" required />
                             </div>
 
                             <div>
@@ -321,7 +313,25 @@
                                 </select>
                             </div>
 
-                            <input type="submit" class="button-primary font-bold rounded-full" value="Submit" />
+                            <div>
+                                <label class="form-control-label text-light font-normal text-sm" for="message">
+                                    Your Message:
+                                </label>
+                                <textarea id="message" class="form-control rounded" name="message" rows="4"
+                                    placeholder="Input message" required></textarea>
+                            </div>
+
+                            <div class="flex align-center mb-4">
+                                <input type="checkbox" id="subscribe" class="form-control-checkbox" name="subscribe"
+                                    value="yes" />
+                                <label class="form-control-label text-light font-normal text-sm mx-4" for="subscribe">
+                                    Interested in Banana Farm Updates
+                                </label>
+                            </div>
+
+
+
+                            <input type="submit" class="button-primary font-bold rounded-full w-4" value="Submit" />
                         </form>
                     </div>
 
