@@ -157,10 +157,10 @@ cd module-2-tenriajeng
 
 ## Lighthouse Score
 - Mobile 
-![Mobile](https://sejawat.s3.ap-southeast-1.amazonaws.com/sejawat/file/b46992537d9d3ffd2b3cd8d900bee272/Screenshot-2024-03-02-at-00.23.21.png)
+![Mobile](https://sejawat.s3.ap-southeast-1.amazonaws.com/sejawat/file/ac54288842f0c6d3c9a5330470ee82bd/Screenshot-2024-03-02-at-00.23.21.png)
 
 - Desktop 
-![Desktop](https://sejawat.s3.ap-southeast-1.amazonaws.com/sejawat/file/14829c996f0184f1f5943128e9c00f9f/Screenshot-2024-03-02-at-00.18.32.png)
+![Desktop](https://sejawat.s3.ap-southeast-1.amazonaws.com/sejawat/file/44a7bcabfa8468ce14c73787ffef6b58/Screenshot-2024-03-02-at-00.18.32.png)
 
 ## Contributing
 
