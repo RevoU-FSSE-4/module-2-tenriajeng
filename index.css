@@ -104,6 +104,10 @@ ol {
     align-items: center;
 }
 
+.max-height {
+    max-height: 600px;
+}
+
 .h-50 {
     height: 50vh;
 }
