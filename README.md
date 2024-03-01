@@ -1,3 +1,22 @@
+
+# Table of Contents
+1. [Introduction](#introduction)
+2. [Features](#features)
+   - [2.1 Home](#home)
+   - [2.2 About Us](#about-us)
+   - [2.3 Gallery](#gallery)
+   - [2.4 Banana Cultivation Steps](#banana-cultivation-steps)
+   - [2.5 Contact Us](#contact-us)
+3. [Usage](#usage)
+4. [Deploy](#deploy)
+   - [4.1 Change GitHub Repository to Public](#change-github-repository-to-public)
+   - [4.2 Create Netlify site from GitHub repository](#create-netlify-site-from-github-repository)
+   - [4.3 Configure Custom Domain on Netlify for "yahhh.online"](#configure-custom-domain-on-netlify-for-yahhhonline)
+5. [Lighthouse Score](#lighthouse-score)
+   - [5.1 Mobile](#mobile)
+   - [5.2 Desktop](#desktop)
+6. [Contributing](#contributing)
+
 # Banana Farm
 
 ## Introduction
