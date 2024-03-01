@@ -52,6 +52,10 @@ ol {
     flex-direction: column;
 }
 
+.hidden {
+    display: none;
+}
+
 .navbar {
     display: flex;
     align-items: center;
@@ -76,6 +80,8 @@ ol {
     display: flex;
     align-content: center;
     justify-content: space-evenly;
+    width: 120px;
+    height: 40px;
 }
 
 .menu {
@@ -214,6 +220,10 @@ ol {
     padding: 0px;
 }
 
+.p-2 {
+    padding: 4px;
+}
+
 .p-4 {
     padding: 10px;
 }
@@ -281,8 +291,6 @@ ol {
 
 .relative .sales-image {
     display: block;
-    width: 100%;
-    height: auto;
 }
 
 .relative .cta-image {
@@ -351,6 +359,7 @@ ol {
 .container {
     max-width: 1180px;
     margin: 0 auto;
+    width: 90%;
 }
 
 .grid-container {
@@ -368,7 +377,7 @@ ol {
 }
 
 .overflow-hidden {
-    overflow: hidden;
+    overflow: hidden !important;
 }
 
 .aspect-16-9 {
@@ -410,6 +419,10 @@ ol {
 
     .lg\:aspect-square {
         aspect-ratio: 6 / 6;
+    }
+
+    .lg\:text-4xl {
+        font-size: 2.25rem;
     }
 
 }
@@ -473,9 +486,9 @@ ol {
         display: none;
         flex-direction: column;
         position: absolute;
-        top: 70px;
+        top: 60px;
         left: 0;
-        background-color: var(--main-color);
+        background-color: var(--light-color);
         width: 100%;
         padding: 20px 0px;
     }
@@ -485,7 +498,10 @@ ol {
     }
 
     .hamburger-icon {
-        display: block;
+        display: flex;
+        background-color: rgb(240 249 255);
+        width: 40px;
+        height: 40px;
     }
 
     .show-menu {
@@ -622,7 +638,7 @@ ol {
 
 .button-primary {
     background-color: var(--primary-color);
-    padding: 10px 20px;
+    padding: 9px 15px;
     font-size: 14px;
     border: 0px;
     cursor: pointer;
@@ -634,7 +650,7 @@ ol {
 
 .button-secondary {
     background-color: #f9fafb;
-    padding: 10px 20px;
+    padding: 9px 15px;
     font-size: 14px;
     border: 0px;
     cursor: pointer;
@@ -645,27 +661,27 @@ ol {
 }
 
 .button-danger {
-    background-color: var(--danger-color);
-    padding: 10px 20px;
+    background-color: var(--rose-700);
+    padding: 9px 15px;
     font-size: 14px;
     border: 0px;
     cursor: pointer;
 }
 
 .button-danger:hover {
-    background-color: #e11d48;
+    background-color: var(--rose-800);
 }
 
 .button-sky {
-    background-color: var(--sky-500);
-    padding: 10px 20px;
+    background-color: var(--sky-700);
+    padding: 9px 15px;
     font-size: 14px;
     border: 0px;
     cursor: pointer;
 }
 
 .button-sky:hover {
-    background-color: var(--sky-600);
+    background-color: var(--sky-800);
 }
 
 .bg-primary {
@@ -1010,7 +1026,7 @@ ol {
         align-items: center;
         justify-content: space-between;
         max-width: 1180px;
-        width: 100%;
+        width: 90%;
     }
 
     .container {
