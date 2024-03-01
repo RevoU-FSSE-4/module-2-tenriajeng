@@ -432,7 +432,7 @@ ol {
     }
 
     .sm\:w-full {
-        width: 100%;
+        width: 100% !important;
     }
 
     .sm\:grid-cols {
@@ -1065,6 +1065,14 @@ ol {
 
     .sm-w-full {
         width: 100%;
+    }
+
+    .sm\:align-start {
+        align-items: start;
+    }
+
+    .sm\:text-start {
+        text-align: start;
     }
 
     .d-none {
